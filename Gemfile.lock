@@ -11,10 +11,10 @@ GEM
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     citrus (3.0.2)
-    cloudcannon-jekyll-bookshop (2.0.1)
+    cloudcannon-jekyll-bookshop (2.0.6)
       dry-inflector (>= 0.1, < 1.0)
       jekyll (>= 3.7, < 5.0)
-      node-runner (>= 1.0, < 2.0)
+      node-runner-temp-fix-windows (>= 1.0, < 2.0)
       toml-rb (>= 2.0, < 3.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.9)
@@ -43,7 +43,7 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
-    jekyll-bookshop (2.0.1)
+    jekyll-bookshop (2.0.6)
       dry-inflector (>= 0.1, < 1.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-postcss-v2 (1.0.1)
@@ -58,7 +58,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    node-runner (1.0.1)
+    node-runner-temp-fix-windows (1.0.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
@@ -80,8 +80,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cloudcannon-jekyll-bookshop (>= 2.0.1)
-  jekyll-bookshop (>= 2.0.1)
+  cloudcannon-jekyll-bookshop (>= 2.0.6)
+  jekyll-bookshop (>= 2.0.6)
   jekyll-postcss-v2
   jekyll-watch!
 
