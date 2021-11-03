@@ -6,7 +6,6 @@ source: site
 plugins:
   - jekyll-bookshop
   - cloudcannon-jekyll-bookshop
-  - jekyll-postcss-v2
 
 # Multiple bookshops can be used on one website,
 # or different production / staging locations.
@@ -14,7 +13,6 @@ bookshop_locations:
   - ../component-library
 
 exclude:
-  - postcss.config.js
   - node_modules
 
 include:
