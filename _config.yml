@@ -5,7 +5,6 @@ source: site
 
 plugins:
   - jekyll-bookshop
-  - cloudcannon-jekyll-bookshop
 
 # Multiple bookshops can be used on one website,
 # or different production / staging locations.
@@ -25,8 +24,7 @@ _array_structures:
     style: modal
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: default
